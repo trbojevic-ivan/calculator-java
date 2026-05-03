@@ -1,0 +1,31 @@
+1. Sistemsko testiranje:
+
+TC-01 - Prioritet operacija 
+	ulazni podaci: 11+2*5+8
+	očekivani rezultat : 29
+	dobijeni rezultat : 29
+
+TC-02 - Deljenje nulom
+	ulazni podaci: 50/0
+	očekivani rezultat : greška
+	dobijeni rezultat : greška(Infinity)
+
+TC-03 - Decimalni brojevi
+	ulazni podaci: 4.5+2.5
+	očekivani rezultat : 7.0
+	dobijeni rezultat : 7.0
+
+TC-04 - Prazan unos
+	ulazni podaci: enter bez teksta
+	očekivani rezultat : greška
+	dobijeni rezultat : greška(validaciona poruka)
+
+TC-05 - Nevalidni karakteri
+	ulazni podaci: 5+abc
+	očekivani rezultat : greška
+	dobijeni rezultat : greška(invalid input)
+
+TC-06 - Negativni brojevi 
+	ulazni podaci: 2+-5
+	očekivani rezultat : greška
+	dobijeni rezultat : greška
